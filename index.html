@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>이륜차 교통안전 음성 안내</title>
+  <meta name="description" content="이륜차 교통안전 음성 안내 재생 페이지">
+  <style>
+    body {font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic", Arial, sans-serif; 
+          line-height: 1.6; margin: 0; padding: 40px 16px; color: #111;}
+    .wrap {max-width: 760px; margin: 0 auto; text-align: center;}
+    h1 {font-size: 1.6rem; margin-bottom: 0.25rem;}
+    p.sub {color:#666; margin-top:0; margin-bottom: 1.5rem;}
+    audio {width:100%; max-width:680px; outline:none;}
+    .note {color:#777; font-size: .95rem; margin-top: 16px;}
+    .link {margin-top: 16px;}
+    .link a {color:#0a70f5; text-decoration: none;}
+    .link a:hover {text-decoration: underline;}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>이륜차 교통안전 음성 안내</h1>
+    <p class="sub">재생 버튼을 눌러 안전 수칙을 들어보세요.</p>
+
+    <audio controls preload="metadata">
+      <!-- 업로드한 파일명과 정확히 일치해야 합니다 -->
+      <source src="이륜차 교통안전.mp3" type="audio/mpeg">
+      브라우저가 오디오 재생을 지원하지 않습니다.
+    </audio>
+
+    <p class="note">오늘도 무사히, 내일도 안전하게. Safe Ride, Safe Home.</p>
+
+    <!-- 혹시 일부 PC 브라우저에서 자동 다운로드가 될 때 대비한 직접 링크 -->
+    <div class="link">
+      <a href="이륜차 교통안전.mp3" download>음원 파일 직접 받기</a>
+    </div>
+  </div>
+</body>
+</html>
